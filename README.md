@@ -40,7 +40,6 @@ The app should automatically open up on the browser else go to `http://localhost
 
 - [React.JS](https://reactjs.org/) - Frontend library used in the project.
 - [Redux](https://redux.js.org/) - Used in addition to React.JS for state management.
-- [HN search API](https://hn.algolia.com/api) - Used for fetching news along with comments to that news.
 
 ## Author
 
