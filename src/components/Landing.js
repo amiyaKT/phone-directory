@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { deleteContact } from '../actions';
 
-class App extends Component {
+class Landing extends Component {
   onClick = index => {
     this.props.deleteContact(index);
   };
@@ -59,4 +59,4 @@ const mapStateToProps = state => ({
 export default connect(
   mapStateToProps,
   { deleteContact }
-)(App);
+)(Landing);
