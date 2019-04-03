@@ -2,7 +2,7 @@
   "name": "phone-dir",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amiya-1998.github.io/phoneDirectory",
+  "homepage": "https://amiya-1998.github.io/phone-directory",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
