@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Phone Directory
 
-## Available Scripts
+A Phone Directory app made using ReactJS and Redux.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- When the app opens users are shown a page listing all their subscribers.
+- After a user has added subscribers, he/she can view the subscribers in subscriber's list displayed in the home page of the application.
+- The user has the capability to add a subscriber or to delete a subscriber from the list.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_Node.JS and npm must be installed. Download and install them from [here](https://nodejs.org)._
 
-### `npm run build`
+### Installing
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow these steps to run this project in your local computer.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```
+$ git clone https://github.com/amiya-1998/phone-directory.git
+$ cd phone-directory
+$ npm i
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Now, to run the project on port `3000`, run:
 
-### `npm run eject`
+```
+$ npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The app should automatically open up on the browser else go to `http://localhost:3000` in your browser to view the app.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Built With
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [React.JS](https://reactjs.org/) - Frontend library used in the project.
+- [Redux](https://redux.js.org/) - Used in addition to React.JS for state management.
+- [HN search API](https://hn.algolia.com/api) - Used for fetching news along with comments to that news.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Author
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- **Amiya Kumar Tripathy** - [amiya-1998](https://github.com/amiya-1998)
