@@ -2,6 +2,8 @@
 
 A Phone Directory app made using ReactJS and Redux.
 
+### Live here: https://amiya-1998.github.io/phone-directory/#/
+
 ## Features
 
 - When the app opens users are shown a page listing all their subscribers.
