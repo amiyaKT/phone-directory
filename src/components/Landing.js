@@ -43,7 +43,7 @@ class App extends Component {
         ) : (
           <div className="jumbotron jumbotron-fluid mt-3">
             <div className="container">
-              <h1 className="text-center">You have No Contacts To Show</h1>
+              <h2 className="text-center">You have No Contacts To Show</h2>
             </div>
           </div>
         )}
