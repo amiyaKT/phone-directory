@@ -40,7 +40,13 @@ class App extends Component {
               ))}
             </tbody>
           </table>
-        ) : null}
+        ) : (
+          <div className="jumbotron jumbotron-fluid mt-3">
+            <div className="container">
+              <h1 className="text-center">You have No Contacts To Show</h1>
+            </div>
+          </div>
+        )}
       </div>
     );
   }
